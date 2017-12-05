@@ -1,0 +1,790 @@
+fileFormatVersion: 2
+guid: 8179890314163934798b332eb3822bab
+timeCreated: 1509317364
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlayerOneSprite_0
+    21300002: PlayerOneSprite_1
+    21300004: PlayerOneSprite_2
+    21300006: PlayerOneSprite_3
+    21300008: PlayerOneSprite_4
+    21300010: PlayerOneSprite_5
+    21300012: PlayerOneSprite_6
+    21300014: PlayerOneSprite_7
+    21300016: PlayerOneSprite_8
+    21300018: PlayerOneSprite_9
+    21300020: PlayerOneSprite_10
+    21300022: PlayerOneSprite_11
+    21300024: PlayerOneSprite_12
+    21300026: PlayerOneSprite_13
+    21300028: PlayerOneSprite_14
+    21300030: PlayerOneSprite_15
+    21300032: PlayerOneSprite_16
+    21300034: PlayerOneSprite_17
+    21300036: PlayerOneSprite_18
+    21300038: PlayerOneSprite_19
+    21300040: PlayerOneSprite_20
+    21300042: PlayerOneSprite_21
+    21300044: PlayerOneSprite_22
+    21300046: PlayerOneSprite_23
+    21300048: PlayerOneSprite_24
+    21300050: PlayerOneSprite_25
+    21300052: PlayerOneSprite_26
+    21300054: PlayerOneSprite_27
+    21300056: PlayerOneSprite_28
+    21300058: PlayerOneSprite_29
+    21300060: PlayerOneSprite_30
+    21300062: PlayerOneSprite_31
+    21300064: PlayerOneSprite_32
+    21300066: PlayerOneSprite_33
+    21300068: PlayerOneSprite_34
+    21300070: PlayerOneSprite_35
+    21300072: PlayerOneSprite_36
+    21300074: PlayerOneSprite_37
+    21300076: PlayerOneSprite_38
+    21300078: PlayerOneSprite_39
+    21300080: PlayerOneSprite_40
+    21300082: PlayerOneSprite_41
+    21300084: PlayerOneSprite_42
+    21300086: PlayerOneSprite_43
+    21300088: PlayerOneSprite_44
+    21300090: PlayerOneSprite_45
+    21300092: PlayerOneSprite_46
+    21300094: PlayerOneSprite_47
+    21300096: PlayerOneSprite_48
+    21300098: PlayerOneSprite_49
+    21300100: PlayerOneSprite_50
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayerOneSprite_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 387
+        width: 32
+        height: 40
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 387
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.46098417, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 387
+        width: 39
+        height: 40
+      alignment: 9
+      pivot: {x: 0.35422632, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 388
+        width: 45
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 388
+        width: 44
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 388
+        width: 54
+        height: 17
+      alignment: 9
+      pivot: {x: 0.4090938, y: 0.10295374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 360
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_7
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 357
+        width: 20
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 361
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 358
+        width: 20
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 311
+        width: 27
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 309
+        width: 27
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 309
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 309
+        width: 29
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_14
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 308
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_15
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 308
+        width: 29
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 263
+        width: 40
+        height: 39
+      alignment: 9
+      pivot: {x: 0.30824405, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 262
+        width: 40
+        height: 39
+      alignment: 9
+      pivot: {x: 0.2929036, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 262
+        width: 41
+        height: 40
+      alignment: 9
+      pivot: {x: 0.3353705, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_19
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 264
+        width: 40
+        height: 39
+      alignment: 9
+      pivot: {x: 0.2813984, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 213
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 213
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 212
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_23
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 211
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_24
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 210
+        width: 46
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 213
+        width: 16
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_26
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 162
+        width: 27
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 162
+        width: 26
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_28
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 161
+        width: 27
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_29
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 161
+        width: 26
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_30
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 168
+        width: 16
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 108
+        width: 32
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_32
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 111
+        width: 30
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_33
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 131
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_34
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 119
+        width: 16
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_35
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 112
+        width: 48
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 41
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_37
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 46
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_38
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 44
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_39
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 51
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_40
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 51
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_41
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 53
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_42
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 54
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_43
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_44
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 6
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 6
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_46
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 4
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_47
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 8
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_48
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 4
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_49
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 5
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerOneSprite_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 269
+        height: 413
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

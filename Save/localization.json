@@ -1,0 +1,65 @@
+[
+    {
+        "language": "eng",
+        "textkey": "Panel.Start",
+        "textvalue": "Start"
+    },
+    {
+        "language": "spa",
+        "textkey": "Panel.Start",
+        "textvalue": "Empezar"
+    },
+	{
+        "language": "eng",
+        "textkey": "Panel.Options",
+        "textvalue": "Options"
+    },
+    {
+        "language": "spa",
+        "textkey": "Panel.Options",
+        "textvalue": "Opciones"
+    },
+	{
+        "language": "eng",
+        "textkey": "Panel.Quit",
+        "textvalue": "Quit"
+    },
+    {
+        "language": "spa",
+        "textkey": "Panel.Quit",
+        "textvalue": "Salir"
+    }
+	,
+	{
+        "language": "eng",
+        "textkey": "Panel.Life",
+        "textvalue": "Life: "
+    },
+    {
+        "language": "spa",
+        "textkey": "Panel.Life",
+        "textvalue": "Vida: "
+    },
+	,
+	{
+        "language": "eng",
+        "textkey": "Panel.Score",
+        "textvalue": "Score: "
+    },
+    {
+        "language": "spa",
+        "textkey": "Panel.Score",
+        "textvalue": "Puntos: "
+    },
+	,
+	{
+        "language": "eng",
+        "textkey": "Panel.Reset",
+        "textvalue": "Reset"
+    },
+    {
+        "language": "spa",
+        "textkey": "Panel.Reset",
+        "textvalue": "Resetear"
+    }
+]
