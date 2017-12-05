@@ -1,12 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{85476DE8-8058-F81B-3AC5-FE5DE29A98E2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -47,68 +46,67 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Enemies\BKEnemyBehavior.cs" />
-    <Compile Include="Assets\Scripts\Enemies\Enemy1Behavior.cs" />
-    <Compile Include="Assets\Scripts\Enemies\Enemy2Behavior.cs" />
-    <Compile Include="Assets\Scripts\Enemies\EnemyBehavior.cs" />
-    <Compile Include="Assets\Scripts\Enemies\EnemyController.cs" />
-    <Compile Include="Assets\Scripts\Enemies\EnemyEntityBehavior.cs" />
-    <Compile Include="Assets\Scripts\Enemies\IEnemyBehavior.cs" />
-    <Compile Include="Assets\Scripts\Enemies\IEnemyStrategy.cs" />
-    <Compile Include="Assets\Scripts\Engine\EventsManager.cs" />
-    <Compile Include="Assets\Scripts\Engine\Pool\Pool.cs" />
-    <Compile Include="Assets\Scripts\Engine\Pool\PoolObject.cs" />
-    <Compile Include="Assets\Scripts\Engine\Pool\Spawner\EnemySpawner.cs" />
-    <Compile Include="Assets\Scripts\Engine\Pool\Spawner\ProjectileSpawner.cs" />
-    <Compile Include="Assets\Scripts\EntityBehavior.cs" />
-    <Compile Include="Assets\Scripts\ExampleScreen.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\LoadMenu.cs" />
-    <Compile Include="Assets\Scripts\LocalizationManager.cs" />
-    <Compile Include="Assets\Scripts\MenuController.cs" />
-    <Compile Include="Assets\Scripts\MiniJSON.cs" />
-    <Compile Include="Assets\Scripts\ParticleDestroy.cs" />
-    <Compile Include="Assets\Scripts\ParticleSpawner.cs" />
-    <Compile Include="Assets\Scripts\PlayerBehavior.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Projectile.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Attack\EnemySemiautomatic.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Attack\IAttackBehavior.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Attack\NoAttack.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Attack\Semiautomatic.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Attack\Sinusoidal.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Attack\Spread.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Jump\IJumpBehavior.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Jump\JumpNormal.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Move\IMoveBehavior.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Move\MoveHorizontal.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Move\MoveHorizontalLookDirection.cs" />
-    <Compile Include="Assets\Scripts\Strategies\Move\NoMove.cs" />
-    <Compile Include="Assets\Scripts\Strategies\MoveBullet\IMoveBulletBehavior.cs" />
-    <Compile Include="Assets\Scripts\Strategies\MoveBullet\MoveForward.cs" />
-    <Compile Include="Assets\Scripts\Strategies\MoveBullet\MoveSinusoidal.cs" />
-    <Compile Include="Assets\Scripts\TimeGlobal.cs" />
-    <Compile Include="Assets\Scripts\TriggerEnter.cs" />
-    <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scripts\Utilities\OnLoadSprite.cs" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PlaymodeTestsRunner">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.HoloLens">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VR">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
-    </Reference>
+     <Compile Include="Assets\Scripts\Enemies\EnemyBehavior.cs" />
+     <Compile Include="Assets\Scripts\Engine\EventsManager.cs" />
+     <Compile Include="Assets\Scripts\Engine\Pool\Pool.cs" />
+     <Compile Include="Assets\Scripts\Engine\Pool\PoolObject.cs" />
+     <Compile Include="Assets\Scripts\Engine\Pool\Spawner\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\Engine\Pool\Spawner\ProjectileSpawner.cs" />
+     <Compile Include="Assets\Scripts\EntityBehavior.cs" />
+     <Compile Include="Assets\Scripts\ExampleScreen.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\LoadMenu.cs" />
+     <Compile Include="Assets\Scripts\LocalizationManager.cs" />
+     <Compile Include="Assets\Scripts\MenuController.cs" />
+     <Compile Include="Assets\Scripts\MiniJSON.cs" />
+     <Compile Include="Assets\Scripts\ParticleDestroy.cs" />
+     <Compile Include="Assets\Scripts\ParticleSpawner.cs" />
+     <Compile Include="Assets\Scripts\PlayerBehavior.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Projectile.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Attack\EnemySemiautomatic.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Attack\IAttackBehavior.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Attack\NoAttack.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Attack\Semiautomatic.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Attack\Sinusoidal.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Attack\Spread.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Jump\IJumpBehavior.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Jump\JumpNormal.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Move\IMoveBehavior.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Move\MoveHorizontal.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Move\MoveHorizontalLookDirection.cs" />
+     <Compile Include="Assets\Scripts\Strategies\Move\NoMove.cs" />
+     <Compile Include="Assets\Scripts\Strategies\MoveBullet\IMoveBulletBehavior.cs" />
+     <Compile Include="Assets\Scripts\Strategies\MoveBullet\MoveForward.cs" />
+     <Compile Include="Assets\Scripts\Strategies\MoveBullet\MoveSinusoidal.cs" />
+     <Compile Include="Assets\Scripts\TimeGlobal.cs" />
+     <Compile Include="Assets\Scripts\TriggerEnter.cs" />
+     <Compile Include="Assets\Scripts\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Utilities\OnLoadSprite.cs" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -118,4 +116,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>
