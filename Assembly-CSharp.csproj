@@ -49,17 +49,18 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemies\EnemyBehavior.cs" />
     <Compile Include="Assets\Scripts\Engine\EventsManager.cs" />
+    <Compile Include="Assets\Scripts\Engine\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Engine\Managers\LocalizationManager\LocalizationManager.cs" />
     <Compile Include="Assets\Scripts\Engine\Managers\LocalizationManager\MiniJSON.cs" />
+    <Compile Include="Assets\Scripts\Engine\Managers\MenuController.cs" />
+    <Compile Include="Assets\Scripts\Engine\Managers\UIManager.cs" />
     <Compile Include="Assets\Scripts\Engine\Pool\Pool.cs" />
     <Compile Include="Assets\Scripts\Engine\Pool\PoolObject.cs" />
     <Compile Include="Assets\Scripts\Engine\Pool\Spawner\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Engine\Pool\Spawner\ProjectileSpawner.cs" />
     <Compile Include="Assets\Scripts\EntityBehavior.cs" />
     <Compile Include="Assets\Scripts\ExampleScreen.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\LoadMenu.cs" />
-    <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\ParticleDestroy.cs" />
     <Compile Include="Assets\Scripts\ParticleSpawner.cs" />
     <Compile Include="Assets\Scripts\PlayerBehavior.cs" />
@@ -82,7 +83,6 @@
     <Compile Include="Assets\Scripts\Strategies\MoveBullet\MoveSinusoidal.cs" />
     <Compile Include="Assets\Scripts\TimeGlobal.cs" />
     <Compile Include="Assets\Scripts\TriggerEnter.cs" />
-    <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\Utilities\OnLoadSprite.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -103,7 +103,9 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Assets\Scripts\Engine\Utils\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
