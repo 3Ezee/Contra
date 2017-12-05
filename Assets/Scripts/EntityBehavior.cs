@@ -40,7 +40,6 @@ public class EntityBehavior : MonoBehaviour {
     public virtual void ReceiveDamage(float damage)
     {
         actualLife -= damage;
-        //if (actualLife <= 0) GameObject.Destroy(this.gameObject);
     }
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
