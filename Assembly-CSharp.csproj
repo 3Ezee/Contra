@@ -83,6 +83,10 @@
     <Compile Include="Assets\Scripts\Strategies\MoveBullet\IMoveBulletBehavior.cs" />
     <Compile Include="Assets\Scripts\Strategies\MoveBullet\MoveForward.cs" />
     <Compile Include="Assets\Scripts\Strategies\MoveBullet\MoveSinusoidal.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\Scripts\Utilities\OnLoadSprite.cs" />
+>>>>>>> revision-pre-entrega
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
