@@ -49,6 +49,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemies\EnemyBehavior.cs" />
     <Compile Include="Assets\Scripts\Engine\EventsManager.cs" />
+    <Compile Include="Assets\Scripts\Engine\Managers\LocalizationManager\LocalizationManager.cs" />
+    <Compile Include="Assets\Scripts\Engine\Managers\LocalizationManager\MiniJSON.cs" />
     <Compile Include="Assets\Scripts\Engine\Pool\Pool.cs" />
     <Compile Include="Assets\Scripts\Engine\Pool\PoolObject.cs" />
     <Compile Include="Assets\Scripts\Engine\Pool\Spawner\EnemySpawner.cs" />
@@ -57,9 +59,7 @@
     <Compile Include="Assets\Scripts\ExampleScreen.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\LoadMenu.cs" />
-    <Compile Include="Assets\Scripts\LocalizationManager.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
-    <Compile Include="Assets\Scripts\MiniJSON.cs" />
     <Compile Include="Assets\Scripts\ParticleDestroy.cs" />
     <Compile Include="Assets\Scripts\ParticleSpawner.cs" />
     <Compile Include="Assets\Scripts\PlayerBehavior.cs" />
@@ -103,9 +103,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\Scripts\Engine\Managers\LocalizationManager\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
