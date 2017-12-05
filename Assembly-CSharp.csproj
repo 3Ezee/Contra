@@ -58,11 +58,13 @@
     <Compile Include="Assets\Scripts\Engine\Pool\PoolObject.cs" />
     <Compile Include="Assets\Scripts\Engine\Pool\Spawner\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Engine\Pool\Spawner\ProjectileSpawner.cs" />
+    <Compile Include="Assets\Scripts\Engine\Utils\ExampleScreen.cs" />
+    <Compile Include="Assets\Scripts\Engine\Utils\LoadMenu.cs" />
+    <Compile Include="Assets\Scripts\Engine\Utils\ParticleDestroy.cs" />
+    <Compile Include="Assets\Scripts\Engine\Utils\ParticleSpawner.cs" />
+    <Compile Include="Assets\Scripts\Engine\Utils\TimeGlobal.cs" />
+    <Compile Include="Assets\Scripts\Engine\Utils\TriggerEnter.cs" />
     <Compile Include="Assets\Scripts\EntityBehavior.cs" />
-    <Compile Include="Assets\Scripts\ExampleScreen.cs" />
-    <Compile Include="Assets\Scripts\LoadMenu.cs" />
-    <Compile Include="Assets\Scripts\ParticleDestroy.cs" />
-    <Compile Include="Assets\Scripts\ParticleSpawner.cs" />
     <Compile Include="Assets\Scripts\PlayerBehavior.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
@@ -81,8 +83,6 @@
     <Compile Include="Assets\Scripts\Strategies\MoveBullet\IMoveBulletBehavior.cs" />
     <Compile Include="Assets\Scripts\Strategies\MoveBullet\MoveForward.cs" />
     <Compile Include="Assets\Scripts\Strategies\MoveBullet\MoveSinusoidal.cs" />
-    <Compile Include="Assets\Scripts\TimeGlobal.cs" />
-    <Compile Include="Assets\Scripts\TriggerEnter.cs" />
     <Compile Include="Assets\Scripts\Utilities\OnLoadSprite.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -103,9 +103,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\Scripts\Engine\Utils\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
